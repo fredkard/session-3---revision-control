@@ -4,7 +4,11 @@ const app = express()
 
 app.get('/',(reg, res)=>{
     console.log('A request happened\'/\'')
+<<<<<<< HEAD
     res.send('Selamat sore, from express')
+=======
+    res.send('Selamat Pagi, from express')
+>>>>>>> cabang-1
 })
 
 app.get('/udo',(reg, res)=>{
