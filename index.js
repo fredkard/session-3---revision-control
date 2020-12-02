@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/',(reg, res)=>{
     console.log('A request happened\'/\'')
-    res.send('Hello World, from express')
+    res.send('Selamat Pagi, from express')
 })
 
 app.get('/udo',(reg, res)=>{
